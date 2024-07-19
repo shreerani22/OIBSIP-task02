@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Landing Page</title>
+    <link rel="icon" type="image/png" href="avatar.png">
+    
+    <!--CDN links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!--Files links-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-style.css">
+
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90" >
+    <!--Navbar section -->
+    <header class="header-wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Portfolio</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Banner -->
+    <section id="home" class="banner-wrapper" >
+        <div class="container">
+            <div class="row" >
+                <div class="col-lg-7 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative"> Hello!! </h2>
+                    <h2 class="text-uppercase">This is Rani Shree</h2>
+                    <h7 class="text-uppercase">Creative Web developer and designer with a passion
+                        for creating visually stunning and user-friendly websites.
+                    </h7>
+                    <div class="mt-4 ">
+                        <a class="main-btn primary-btn" href="#">Hire Me</a>
+                        <a class="main-btn primary-btn ms-4" href="#">Get CV</a>
+                    </div>
+                </div>    
+                    <div class="col-lg-5 order-lg-2 order-1" style="height: 300px; width: 300px;">
+                        <div class="top-right-img">
+                            <img src="me3.jpg" class="img-fluid">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="about-wrapper">
+        <div class="container" style="padding-top: 40px;">
+            <div class="text_about text-center">
+                <p>
+                    <b>Let's Introduce about myself </b><br>
+                    I am a dedicated Bachelor of Computer Applications(BCA) student with a strong foundation in front
+                    -end web development and design.
+                    <br>
+                    My skill set includes proficiency in HTML , CSS , JavaScript and other frameworks. 
+                    <br>
+                    I am a passionate
+                </p>
+            </div>
+
+            <div class="img-fluid float-start" style="height: 100vh; padding: right 50px;">
+                <img src="about.png" alt="About_picture" class="rounded-pill" style="height: 350px; width: 350px;">
+            </div>
+
+            <div class="row ">     
+                <div class="p-4">
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill" data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one" aria-selected="true">Experience</button>
+                        </li>
+    
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two" type="button" role="tab" aria-controls="pills-two" aria-selected="false">Skills</button>
+                        </li>
+                        
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill" data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three" aria-selected="false">Education</button>
+                        </li>
+                    </ul>
+                </div>              
+            </div>  
+            <div class="row">                
+                    <div class="tab-content" id="pills-tabContent">
+
+                        <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab" tabindex="0">
+                        <div class="col-lg-4 col-sm-6">
+                            <h2>Experience</h2>
+                            <div>
+                                <dl>
+                                    <dt> </dt>
+                                    <dd> </dd>
+        
+                                    <dt> </dt>
+                                    <ddb> </dd>
+                                </dl>   
+                            </div>  
+                        </div>
+                             
+                        </div>
+                        <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab" tabindex="0">
+                        
+                            <h2>Skills</h2>
+                            <div>
+                                <dl>
+                                    <dt>Web Development</dt>
+                                    <dd>HTML</dd>
+                                    <dd>CSS</dd>
+                                    <dd>JavaScript</dd>
+                                    <dd>React</dd>
+                                    <dd>Bootstrap</dd>
+        
+                                    <dt>Programming Languages</dt>
+                                    <dd>C/ C++</dd>
+                                    <dd>Python</dd>
+        
+                                    <dt>Machine Languages</dt>
+                                    <dd></dd>
+                                </dl>
+                            </div>
+                        </div>
+        
+                        <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab" tabindex="0">
+                            <h2>Education</h2>
+                            <div>
+                                <dl>
+                                    <dt>BCA(Bachelor of Computer Application)</dt>
+                                    <dd>Sarala Birla University, Ranchi</dd>
+                                    <dd>4th Semester</dd>
+                                    <dd>CGPA:  8.5</dd>
+        
+                                    <dt></dt>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+            </div>  
+
+               
+        </div>
+    
+    </section>
+
+    <section id="projects" class="projects_wrapper">
+        <h3 class="text-center display-3"><b>MY WORK</b></h3>
+        <p class="text-center lead">
+            Developed responsive web applications and integrated third-party Applications
+            using HTML, CSS, JavaScipt, React and Bootstrap.
+        </p>
+        <hr>
+    </section>
+
+
+
+    <section class="container-fluid" style="padding-top:400px;" id="contact">
+        <h1 class="display-3 text-left">Let's Connect</h1>
+        <div class="container float-start">
+          <a href="#" target="_blank" class="text-dark p-2">
+            <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+        <a href="https://www.github.com" target="_blank" class="text-dark p-2">
+          <i class="fab fa-github fa-3x"></i>
+        </a>
+        </div>
+        <div class="container float-end bg-light " style="width:50%;height:500px;">
+          <form class="float-center" data-netlify="true" data-netlify-honeypot="bot-field">
+            <div class="mb-3">
+              <label for="email1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" style="width:400px">
+              <div id="emailHelp" class="form-text">Enter your Email</div>
+            </div>
+            <div class="mb-3">
+              <label for="sub1" class="form-label">Subject</label>
+              <textarea class="form-control" id="sub1" maxlength ="50"  rows="2" cols="10" style="width:400px;"></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="text1" class="form-label">Description</label>
+              <textarea class="form-control" id="text1" maxlength ="500"  rows="5" cols="50" style="width:400px;"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">agree to terms and conditions</label>
+            </div>
+            <button type="submit" class="btn btn-outline-info">Submit</button>
+          </form>
+        </div>
+
+
+      </section>
+</div>
+    
+    <!--JS CDN links-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <!--Custom JS link-->
+    <script src="main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>
